@@ -1,8 +1,8 @@
 {
-  "name": "my-app",
+  "name": "personal-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://fenghsi.github.io/my-app",
+  "homepage": "http://JiahengGuan.github.io/personal-web",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@testing-library/jest-dom": "^4.2.4",
