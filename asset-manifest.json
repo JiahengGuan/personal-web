@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/personal-web/static/css/main.5b591c13.chunk.css",
-    "main.js": "/personal-web/static/js/main.313dfdc6.chunk.js",
-    "main.js.map": "/personal-web/static/js/main.313dfdc6.chunk.js.map",
+    "main.js": "/personal-web/static/js/main.24e1defb.chunk.js",
+    "main.js.map": "/personal-web/static/js/main.24e1defb.chunk.js.map",
     "runtime-main.js": "/personal-web/static/js/runtime-main.1968d9cd.js",
     "runtime-main.js.map": "/personal-web/static/js/runtime-main.1968d9cd.js.map",
-    "static/css/2.35f98baf.chunk.css": "/personal-web/static/css/2.35f98baf.chunk.css",
-    "static/js/2.ec4705de.chunk.js": "/personal-web/static/js/2.ec4705de.chunk.js",
-    "static/js/2.ec4705de.chunk.js.map": "/personal-web/static/js/2.ec4705de.chunk.js.map",
+    "static/css/2.b6e3a137.chunk.css": "/personal-web/static/css/2.b6e3a137.chunk.css",
+    "static/js/2.333addca.chunk.js": "/personal-web/static/js/2.333addca.chunk.js",
+    "static/js/2.333addca.chunk.js.map": "/personal-web/static/js/2.333addca.chunk.js.map",
     "index.html": "/personal-web/index.html",
-    "precache-manifest.8e8122fdd942daa00a3c448610d7b94f.js": "/personal-web/precache-manifest.8e8122fdd942daa00a3c448610d7b94f.js",
+    "precache-manifest.491c90db9d784194e28462d902d05a72.js": "/personal-web/precache-manifest.491c90db9d784194e28462d902d05a72.js",
     "service-worker.js": "/personal-web/service-worker.js",
-    "static/css/2.35f98baf.chunk.css.map": "/personal-web/static/css/2.35f98baf.chunk.css.map",
+    "static/css/2.b6e3a137.chunk.css.map": "/personal-web/static/css/2.b6e3a137.chunk.css.map",
     "static/css/main.5b591c13.chunk.css.map": "/personal-web/static/css/main.5b591c13.chunk.css.map",
-    "static/js/2.ec4705de.chunk.js.LICENSE": "/personal-web/static/js/2.ec4705de.chunk.js.LICENSE",
+    "static/js/2.333addca.chunk.js.LICENSE": "/personal-web/static/js/2.333addca.chunk.js.LICENSE",
     "static/media/MMA.png": "/personal-web/static/media/MMA.b3e45541.png",
     "static/media/Webgen.png": "/personal-web/static/media/Webgen.2fe3a22f.png",
     "static/media/c4me.png": "/personal-web/static/media/c4me.dad66092.png",
@@ -23,9 +23,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1968d9cd.js",
-    "static/css/2.35f98baf.chunk.css",
-    "static/js/2.ec4705de.chunk.js",
+    "static/css/2.b6e3a137.chunk.css",
+    "static/js/2.333addca.chunk.js",
     "static/css/main.5b591c13.chunk.css",
-    "static/js/main.313dfdc6.chunk.js"
+    "static/js/main.24e1defb.chunk.js"
   ]
 }
