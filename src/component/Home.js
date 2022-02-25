@@ -2,7 +2,7 @@ import React from 'react';
 import { Timeline, Icon } from 'antd';
 import { Layout } from 'antd';
 import { Typography} from 'antd';
-import feyu from '../images/feyu.jpg';
+import Jiaheng from '../images/Jiaheng.jpg';
 import csg from '../images/csg.png';
 import ecomm from '../images/e-comm.png';
 import MMA from '../images/MMA.png';
@@ -27,20 +27,20 @@ function Home(props) {
                     <Content className = "content" >
                         <div class = "blocks" >
                             <div class="odd">
-                                <Title style={{ textAlign: 'center' }} >Fenghsi Yu</Title>
-                                <img src={feyu} alt="Avatar" class="prof_picture" ></img>
+                                <Title style={{ textAlign: 'center' }} >Jiaheng Guan</Title>
+                                <img src={Jiaheng} alt="Avatar" class="prof_picture" ></img>
                             </div>
                             <div class="even">
                                 <Typography className = "typolog" >
                                     <Title >About Me</Title>
                                     <Paragraph className = "self_intro">
-                                    My name is Fenghsi Yu. Completed both Master and Bachelor degrees at Stony Brook University. I'm currently a full-time software developer at General Motors in Arizona.
+                                    My name is Jiaheng Guan. Completed Bachelor degrees at Queens College. I'm currently finding a full-time software developer for entry level.
                                     </Paragraph>
                                     <br />
                                 </Typography>
                             </div>
         
-                            <div id = "Timeline" class="odd" >
+                            {/* <div id = "Timeline" class="odd" >
                                 <Title >Experience</Title>
                                 <Timeline mode="alternate">
                                     <Timeline.Item>
@@ -68,7 +68,7 @@ function Home(props) {
                                         <h3>Now</h3>
                                     </Timeline.Item>
                                 </Timeline>
-                            </div>
+                            </div> */}
                             <div class="even" >
                                 <Title >Major Projects</Title>
                                 <div class="card-section">
@@ -146,13 +146,13 @@ function Home(props) {
                                 <Typography className = "typolog" >
                                     <Title >Contact</Title>
                                     <Paragraph className = "self_intro">
-                                       Email: markyu0915@gmail.com
+                                       Email: gjh1547485384@gmail.com
                                     </Paragraph>
                                     <br /><br /><br />
                                 </Typography>
                         </div>
                     </Content>
-                    <Footer style={{ textAlign: 'center', marginTop:'-100px' }}>©2022 Created by Fenghsi Yu</Footer>
+                    <Footer style={{ textAlign: 'center', marginTop:'-100px' }}>©2022 Created by Jiaheng Guan</Footer>
 
                 </Layout>
             </div>
