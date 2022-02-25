@@ -74,10 +74,10 @@ function Home(props) {
                                 <div class="card-section">
                                     <Row gutter={16}>
                                     <Col span={8}>
-                                            <Card className="projects" title="MMADB" bordered={false}>
+                                            <Card className="projects" title="Grab Pics" bordered={false}>
                                                 <img src={MMA}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
-                                                    <div class="text">Private Source</div>
+                                                    <div class="text"><a href="https://github.com/JiahengGuan/Grap-Pics.git">Go to Github</a></div>
                                                 </div> 
                                             </Card>
                                         </Col>
