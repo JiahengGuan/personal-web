@@ -5,7 +5,7 @@ import { Typography} from 'antd';
 import Jiaheng from '../images/Jiaheng.jpg';
 import csg from '../images/csg.png';
 import ecomm from '../images/e-comm.png';
-import MMA from '../images/MMA.png';
+import GP from '../images/Grab_Pics.jpg';
 import { Collapse } from 'antd';
 import twitter from '../images/twitter.jpg';
 import c4me from '../images/c4me.png';
@@ -75,7 +75,7 @@ function Home(props) {
                                     <Row gutter={16}>
                                     <Col span={8}>
                                             <Card className="projects" title="Grab Pics" bordered={false}>
-                                                <img src={MMA}  alt="" class="project_picture" ></img>
+                                                <img src={GP}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
                                                     <div class="text"><a href="https://github.com/JiahengGuan/Grap-Pics.git">Go to Github</a></div>
                                                 </div> 
