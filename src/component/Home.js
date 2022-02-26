@@ -8,7 +8,7 @@ import ecomm from '../images/e-comm.png';
 import GP from '../images/Grab_Pics.jpg';
 import { Collapse } from 'antd';
 import twitter from '../images/twitter.jpg';
-import SP from '../images/spotify.png';
+import SP from '../images/spotify.jpg';
 import webgen from '../images/Webgen.png';
 import { Card, Col, Row } from 'antd';
 import { Menu, Dropdown } from 'antd';
