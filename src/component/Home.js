@@ -8,7 +8,7 @@ import ecomm from '../images/e-comm.png';
 import GP from '../images/Grab_Pics.jpg';
 import { Collapse } from 'antd';
 import twitter from '../images/twitter.jpg';
-import c4me from '../images/c4me.png';
+import SP from '../images/spotify.jpg';
 import webgen from '../images/Webgen.png';
 import { Card, Col, Row } from 'antd';
 import { Menu, Dropdown } from 'antd';
@@ -82,10 +82,10 @@ function Home(props) {
                                             </Card>
                                         </Col>
                                         <Col span={8}>
-                                            <Card className="projects" title="C4me" bordered={false}>
-                                                <img src={c4me}  alt="" class="project_picture" ></img>
+                                            <Card className="projects" title="Spotify" bordered={false}>
+                                                <img src={SP}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
-                                                    <div class="text"><a href="https://github.com/fenghsi/College4me">Go to Github</a></div>
+                                                    <div class="text"><a href="https://github.com/JiahengGuan/Spotify.git">Go to Github</a></div>
                                                 </div> 
                                             </Card>
                                         </Col>
