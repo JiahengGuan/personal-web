@@ -7,12 +7,10 @@ import csg from '../images/csg.png';
 import ecomm from '../images/e-comm.png';
 import GP from '../images/Grab_Pics.jpg';
 import { Collapse } from 'antd';
-import twitter from '../images/twitter.jpg';
+import ReminderList from '../images/ReminderList.jpg';
 import SP from '../images/spotify.jpg';
 import webgen from '../images/Webgen.png';
 import { Card, Col, Row } from 'antd';
-import { Menu, Dropdown } from 'antd';
-import { DownOutlined } from '@ant-design/icons';
 const { Header, Content, Footer } = Layout;
 const { Title, Paragraph } = Typography;
 const { Panel } = Collapse;
@@ -90,10 +88,10 @@ function Home(props) {
                                             </Card>
                                         </Col>
                                         <Col span={8}>
-                                            <Card className="projects" title="Twitter Clone" bordered={false}>
-                                                <img src={twitter}  alt="" class="project_picture" ></img>
+                                            <Card className="projects" title="ReminderList" bordered={false}>
+                                                <img src={ReminderList}  alt="" class="project_picture" ></img>
                                                 <div class="overlay">
-                                                    <div class="text"><a href="https://github.com/fenghsi/twitter-clone">Go to Github</a></div>
+                                                    <div class="text"><a href="https://github.com/JiahengGuan/ReminderList.git">Go to Github</a></div>
                                                 </div> 
                                             </Card>
                                         </Col>
