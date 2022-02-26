@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99579633ef2b38624ab2f9be4eee9e93",
+    "revision": "69a008235cb2e2b114747e11e1c9231e",
     "url": "/personal-web/index.html"
   },
   {
-    "revision": "ef3c1bc995e876e05f18",
+    "revision": "b2045526a427af3a4c15",
     "url": "/personal-web/static/css/2.b6e3a137.chunk.css"
   },
   {
-    "revision": "e6eea2a3448d26da4683",
+    "revision": "23e5f982870e00956d16",
     "url": "/personal-web/static/css/main.c71437aa.chunk.css"
   },
   {
-    "revision": "ef3c1bc995e876e05f18",
-    "url": "/personal-web/static/js/2.6d6bda89.chunk.js"
+    "revision": "b2045526a427af3a4c15",
+    "url": "/personal-web/static/js/2.ab25c386.chunk.js"
   },
   {
     "revision": "c959a83e5b467b52efde9455adfd9f66",
-    "url": "/personal-web/static/js/2.6d6bda89.chunk.js.LICENSE"
+    "url": "/personal-web/static/js/2.ab25c386.chunk.js.LICENSE"
   },
   {
-    "revision": "e6eea2a3448d26da4683",
-    "url": "/personal-web/static/js/main.4184d85a.chunk.js"
+    "revision": "23e5f982870e00956d16",
+    "url": "/personal-web/static/js/main.6f4ee670.chunk.js"
   },
   {
     "revision": "c65be0112f31b81fdf06",
@@ -36,12 +36,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-web/static/media/Jiaheng.b36a0743.jpg"
   },
   {
-    "revision": "2fe3a22f9c9eba0dc1d28f67ccb80e7f",
-    "url": "/personal-web/static/media/Webgen.2fe3a22f.png"
+    "revision": "0e54bd533a8f626d65ecbaa61ed8836a",
+    "url": "/personal-web/static/media/ReminderList.0e54bd53.jpg"
   },
   {
-    "revision": "dad660926109a92590a6f95fc5de52d8",
-    "url": "/personal-web/static/media/c4me.dad66092.png"
+    "revision": "2fe3a22f9c9eba0dc1d28f67ccb80e7f",
+    "url": "/personal-web/static/media/Webgen.2fe3a22f.png"
   },
   {
     "revision": "97a974d272a7887aebb0f6b81d08fd0d",
@@ -52,7 +52,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/personal-web/static/media/e-comm.f86c10d1.png"
   },
   {
-    "revision": "78294cb06f3e737344c90312e54e0144",
-    "url": "/personal-web/static/media/twitter.78294cb0.jpg"
+    "revision": "f243d1088d58cc2f40f0dfa32a0cf1ae",
+    "url": "/personal-web/static/media/spotify.f243d108.jpg"
   }
 ]);
