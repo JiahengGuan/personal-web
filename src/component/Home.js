@@ -1,5 +1,5 @@
 import React from 'react';
-import { Timeline, Icon } from 'antd';
+//import { Timeline, Icon } from 'antd';
 import { Layout } from 'antd';
 import { Typography} from 'antd';
 import Jiaheng from '../images/Jiaheng.jpg';
@@ -128,14 +128,21 @@ function Home(props) {
                             <div class="odd">
                             <Title >Minor Projects</Title>
                             <Collapse accordion>
-                                <Panel header="Tic Tac Toe" key="1">
-                                <p>Tic Tac toe is a simple gaming project. We implement front-end in react and backend in Express, which intergrates with mongodb. </p>
+                                <Panel header="Category-Partition" key="1">
+                                <p>Category-Partition will generate between 60 and 100 test-case specifications for a simplified version of the copy utility.
+                                    <a href= "https://github.com/JiahengGuan/Category-Partition.git"> Click here to view in Github</a></p>
                                 </Panel>
-                                <Panel header="SBML" key="2">
-                                <p>SBML is a unique programing language, which was built in python lex and yacc. <a href="https://github.com/fenghsi/sbml/tree/master">Click here to view</a></p>
+                                <Panel header="White-Box-Testing" key="2">
+                                <p>Get familiar with white-box testing and understand some subtleties of structural coverage.
+                                    <a href="https://github.com/JiahengGuan/White-Box-Testing.git"> Click here to view in Github</a></p>
                                 </Panel>
-                                <Panel header="DNS Experiment" key="3">
-                                <p>Write a python Script to generate an DNS-like server for browsing</p>
+                                <Panel header="TipsCalculator" key="3">
+                                <p>A simple Android app to calculate out the tips and total of 3 different percentages for each person.
+                                    <a href="https://github.com/JiahengGuan/TipsCalculator.git"> Click here to view in Github</a></p>
+                                </Panel>
+                                <Panel header="ReadAndWrite" key="4">
+                                <p>read the source file contents in the parent process and write the contents through the pipe to the output file.
+                                    <a href="https://github.com/JiahengGuan/ReadAndWrite.git"> Click here to view in Github</a></p>
                                 </Panel>
                             </Collapse>
                             </div>
