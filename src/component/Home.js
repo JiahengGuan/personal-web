@@ -1,15 +1,15 @@
 import React from 'react';
-//import { Timeline, Icon } from 'antd';
+import { Timeline, Icon } from 'antd';
 import { Layout } from 'antd';
 import { Typography} from 'antd';
 import Jiaheng from '../images/Jiaheng.jpg';
-import csg from '../images/csg.png';
-import ecomm from '../images/e-comm.png';
+//import csg from '../images/csg.png';
+//import ecomm from '../images/e-comm.png';
 import GP from '../images/Grab_Pics.jpg';
 import { Collapse } from 'antd';
 import ReminderList from '../images/ReminderList.jpg';
 import SP from '../images/spotify.jpg';
-import webgen from '../images/Webgen.png';
+//import webgen from '../images/Webgen.png';
 import { Card, Col, Row } from 'antd';
 const { Header, Content, Footer } = Layout;
 const { Title, Paragraph } = Typography;
@@ -32,41 +32,32 @@ function Home(props) {
                                 <Typography className = "typolog" >
                                     <Title >About Me</Title>
                                     <Paragraph className = "self_intro">
-                                    My name is Jiaheng Guan. Completed Bachelor degrees at Queens College. I'm currently finding a full-time software developer for entry level.
+                                    My name is Jiaheng Guan. Completed Bachelor degrees at Queens College. I'm currently looking for software developer position for entry level.
                                     </Paragraph>
                                     <br />
                                 </Typography>
                             </div>
         
-                            {/* <div id = "Timeline" class="odd" >
+                            <div id = "Timeline" class="odd" >
                                 <Title >Experience</Title>
                                 <Timeline mode="alternate">
                                     <Timeline.Item>
-                                        <h3>Aug 2017 (Start Bachelor Degree)</h3>Start Bachelor degree in Computer Science at Stony Brook University 
+                                        <h3>Aug 2017 (Start College)</h3> Start to study at Queens College 
                                     </Timeline.Item>
                                     <Timeline.Item color="green">
-                                        <h3>Jan 2019-May 2019 (Teaching Assistant)</h3>Teaching Assistant for Data Structure
+                                        <h3>Spring 2019 (Start Bachelor Degree)</h3> Start Bachelor Degree in Computer Science at Queens College
                                     </Timeline.Item>
                                     <Timeline.Item color="brown">
-                                        <h3>July 2019 - May 2020 (Web Developer)</h3> Work in Stony Brook University CS Department as a Web Developer in New York 
-                                    </Timeline.Item>
-                                    <Timeline.Item color="brown">
-                                        <h3>May 2020 (Graduated)</h3>Completed <b>Bachelor Degree</b> at <b>Stony Brook University</b> 
+                                        <h3>Jan 2019 - May 2019 (Math Tutor)</h3> Experience of helping math problem at math center
                                     </Timeline.Item>
                                     <Timeline.Item color="purple">
-                                        <h3>June 2020 - Aug 2020 (Software Engineering Intern)</h3> Software Engineering Intern at <b>MMA Pan Asia Fund</b> in Taiwan 
-                                    </Timeline.Item>
-                                    <Timeline.Item color="blue">
-                                        <h3>Aug 2020 - May 2021(Graduated)</h3> Completed <b>Master Degree</b> at <b>Stony Brook University</b>
-                                    </Timeline.Item>
-                                    <Timeline.Item color="blue">
-                                        <h3>June 2021 (Software Developer)</h3> Full-time Software Developer at <b>General Motors</b> in Arizona (Current)
+                                        <h3>Spring 2022(Graduated)</h3> Completed <b>Bachelor Degree</b> at <b>Queens College</b>
                                     </Timeline.Item>
                                     <Timeline.Item color="red">
-                                        <h3>Now</h3>
+                                        <h3>Now(Finding job)</h3>Finding a job as a software engineer for entry level
                                     </Timeline.Item>
                                 </Timeline>
-                            </div> */}
+                            </div>
                             <div class="even" >
                                 <Title >Major Projects</Title>
                                 <div class="card-section">
@@ -96,7 +87,7 @@ function Home(props) {
                                             </Card>
                                         </Col>
                                     </Row>
-                                    <br />
+                                    {/* <br />
                                     <Row gutter={16}>
                                         <Col span={8}>
                                             <Card className="projects" title="WebGen" bordered={false}>
@@ -122,7 +113,7 @@ function Home(props) {
                                                 </div>              
                                             </Card>
                                         </Col>
-                                    </Row>
+                                    </Row> */}
                                 </div>
                             </div>
                             <div class="odd">
@@ -143,6 +134,14 @@ function Home(props) {
                                 <Panel header="ReadAndWrite" key="4">
                                 <p>read the source file contents in the parent process and write the contents through the pipe to the output file.
                                     <a href="https://github.com/JiahengGuan/ReadAndWrite.git"> Click here to view in Github</a></p>
+                                </Panel>
+                                <Panel header="BuggyClass" key="5">
+                                <p>Using JUnit to decide whether can achive the requirement and statement coverage.
+                                    <a href="https://github.com/JiahengGuan/BuggyClass.git"> Click here to view in Github</a></p>
+                                </Panel>
+                                <Panel header="CustomerString" key="6">
+                                <p>Assesses some basic knowledge of Java and JUnit for testing.
+                                    <a href="https://github.com/JiahengGuan/CustomerString.git"> Click here to view in Github</a></p>
                                 </Panel>
                             </Collapse>
                             </div>
