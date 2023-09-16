@@ -32,7 +32,7 @@ function Home(props) {
                                 <Typography className = "typolog" >
                                     <Title >About Me</Title>
                                     <Paragraph className = "self_intro">
-                                    My name is Jiaheng Guan. Completed Bachelor degrees at Queens College. I'm currently working in Golden Touch Home Health in IT Team.
+                                    My name is Jiaheng Guan. Completed Bachelor degrees at Queens College. I'm currently working in Golden Touch Home Health in IT Team.Currently I am looking for a new job for software engineer.
                                     </Paragraph>
                                     <br />
                                 </Typography>
